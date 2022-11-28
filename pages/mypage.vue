@@ -1,6 +1,11 @@
 <template class>
   <div class="layout">
-    <NuxtLayout name="main">
+    <NuxtLayout>
+      <div class="container">
+        <div class="row">
+          <OrganismsUserInfoCard />
+        </div>
+      </div>
     </NuxtLayout>
   </div>
 </template>
